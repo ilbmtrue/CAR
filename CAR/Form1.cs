@@ -146,54 +146,6 @@ namespace CAR
             tickTime++;
         }
 
-        //private void timer1_Tick(object sender, EventArgs e)
-        //{
-        //    if (isWdown)
-        //    {
-        //        button3.BackColor = System.Drawing.SystemColors.Highlight;
-        //        pos.ChangeY = 40;
-        //    }
-        //    else { button3.BackColor = System.Drawing.SystemColors.Control; }
-        //    if (isSdown)
-        //    {
-        //        button4.BackColor = System.Drawing.SystemColors.Highlight;
-        //        pos.ChangeY = -40;
-        //    }
-        //    else { button4.BackColor = System.Drawing.SystemColors.Control; }
-        //    if (isAdown)
-        //    {
-        //        button5.BackColor = System.Drawing.SystemColors.Highlight;
-        //        pos.ChangeX = -40; pos.ChangeY = 0;
-        //    }
-        //    else { button5.BackColor = System.Drawing.SystemColors.Control; }
-        //    if (isDdown)
-        //    {
-        //        button6.BackColor = System.Drawing.SystemColors.Highlight;
-        //        pos.ChangeX = 40; pos.ChangeY = 0;
-        //    }
-        //    else { button6.BackColor = System.Drawing.SystemColors.Control; }
-
-        //    listBox2.Items.Add(tickTime.ToString() + " W:" + isWdown + " A:" + isAdown + " S:" + isSdown + " D:" + isDdown + string.Format("${0}={1};", pos.posX.ToString(), pos.posY.ToString()));
-        //    listBox3.Items.Add(tickTime.ToString() + " X:" + pos.posX.ToString() + " Y:" + pos.posY.ToString());
-
-
-        //    if (isWdown | isSdown | isAdown | isDdown)
-        //    {
-        //        dialCmd = string.Format("${0} {1};", pos.posX.ToString(), pos.posY.ToString())
-        //    }
-        //    else
-        //    {
-        //        pos.ChangeX = 0; pos.ChangeY = 0;
-        //        dialCmd = "$0 0;";
-        //    }
-        //    Byte[] dcB = System.Text.Encoding.ASCII.GetBytes(dialCmd);
-        //    peerStream.Write(dcB, 0, dcB.Length);
-        //    listBox2.SelectedIndex = listBox2.Items.Count - 1;
-        //    listBox2.SelectedIndex = -1;
-        //    listBox3.SelectedIndex = listBox3.Items.Count - 1;
-        //    listBox3.SelectedIndex = -1;
-        //    tickTime++;
-        //}
     }
     public class posXY
     {
