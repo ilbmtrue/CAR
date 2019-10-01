@@ -56,7 +56,7 @@ namespace CAR
         public void StartServer()
         {
             var server = new Server();
-            server.Start("http://192.168.2.100:8999/wsDemo/");   //server.Start("http://+:8999/");
+            server.Start("http://ip/port/");   //server.Start("http://+:8999/");
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
